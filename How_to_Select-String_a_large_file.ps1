@@ -1,4 +1,4 @@
-# How to do Select-String on a very larg file
+# How to do Select-String on a very large file
 # In this example, the input file is a CSV with around 2 million lines.
 
 # Extract the file header
