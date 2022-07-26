@@ -4,4 +4,4 @@
 PS C:\Users> Get-Content 'Report.csv' -Head 1
 
 # Query the .csv file using the column name
-PS C:\Users> 
+PS C:\Users> Import-Csv -Delimiter "," -Path 'Report.csv' | where { $_.DealName -eq "SYZ Capital - Equity Hedge" } | select DealName,HedgeFundName
