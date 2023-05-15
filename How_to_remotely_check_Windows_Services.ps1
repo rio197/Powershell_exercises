@@ -14,5 +14,5 @@ ForEach-Object {
                             StartTime
 }
 
-# How to locally check IIS processes
+# How to locally check Windows processes start times
 PS C:\Users> Get-Process | Where-Object {($_.Name -like "*w3*") -or ($_.Name -like "*ism*")} | Select name,starttime
