@@ -1,3 +1,3 @@
 #
 
-hostname; (gcim Win32_OperatingSystem).LastBootUpTime
+(hostname).toupper(); (gcim Win32_OperatingSystem).LastBootUpTime
